@@ -9,7 +9,7 @@ type Props = {
 export default function UserCard({ user }: Props) {
   if (!user) {
     return (
-      <div className="text-gray-500 text-center mt-16 border">
+      <div className="text-gray-500 text-center mt-16 border shadow-lg p-26 rounded-lg">
         <p>Select a user to view their details</p>
       </div>
     );
